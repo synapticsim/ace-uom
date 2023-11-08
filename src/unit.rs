@@ -274,13 +274,13 @@ macro_rules! unit {
     (@unit $(#[$unit_attr:meta])+ @$unit:ident $plural:expr) => {
         $(#[$unit_attr])*
         #[allow(non_camel_case_types)]
-        #[derive(Clone, Copy, Debug, Hash)]
+        #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash)]
         pub struct $unit;
     };
     (@unit @$unit:ident $plural:expr) => {
         #[doc = $plural]
         #[allow(non_camel_case_types)]
-        #[derive(Clone, Copy, Debug, Hash)]
+        #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash)]
         pub struct $unit;
     };
     (@coefficient $factor:expr, $const:expr) => { $factor };

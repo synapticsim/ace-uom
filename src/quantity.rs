@@ -155,7 +155,7 @@ macro_rules! quantity {
         #[allow(non_camel_case_types)]
         #[non_exhaustive]
         #[allow(clippy::manual_non_exhaustive)]
-        #[derive(Debug, Clone, Copy)]
+        #[derive(Debug, Clone, Copy, PartialEq, Eq, Hash)]
         pub enum Units {
             $(#[doc=$plural]
             $unit($unit),)+
