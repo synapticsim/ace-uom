@@ -26,6 +26,10 @@ quantity! {
         @mil: 9.817_477_E-4; "mil", "mil", "mils";
         @minute: 2.908_882_086_657_216_E-4; "′", "minute", "minutes";
         @second: 4.848_136_811_095_36_E-6; "″", "second", "seconds";
+
+        /// Custom units for ACE
+        // I'm just gonna assume this is something similar to "turns" or "revolutions" with a ratio of 1/(2π)
+        @round: 1.591_549_430_9_E-1; "rnd", "round", "rounds";
     }
 }
 

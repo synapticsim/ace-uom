@@ -90,6 +90,9 @@ quantity! {
         @psi: 6.894_757_E3; "psi", "pound-force per square inch",
             "pounds-force per square inch";
         @torr: 1.333_224_E2; "Torr", "torr", "torr";
+
+        /// Custom units for ACE
+        @slug_per_square_foot: 1.355_82_E0 * 9.806_65_E0; "slug/ft²", "slug per square foot", "slugs per square foot";
     }
 }
 

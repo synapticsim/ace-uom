@@ -154,6 +154,10 @@ quantity! {
             "teaspoons per second";
         @register_ton_per_second: 2.831_685_E0; "RT/s", "register ton per second",
             "register tons per second";
+
+        /// Custom units for ACE
+        @liter_per_hour: prefix!(milli) / 6.0_E1 / 6.0_E1; "L/hr", "liter per hour", "liters per hour";
+        @gallon_per_hour: 3.785_412_E-3 / 6.0_E1 / 6.0_E1; "gal/hr", "gallon per hour", "gallons per hour";
     }
 }
 

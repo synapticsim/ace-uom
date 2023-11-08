@@ -66,5 +66,9 @@ quantity! {
         @point_printers: 3.514_598_E-4; "1/72 in", "point (printer's)", "points (printer's)";
         @rod: 5.029_21_E0; "rd", "rod", "rods";
         @yard: 9.144_E-1; "yd", "yard", "yards";
+
+        /// Custom units for ACE
+        @nautical_decimile: 185.2_E0; "dM", "nautical decimile", "nautical decimiles";
+        @decimile: 160.93_E0; "dmi", "decimile", "decimiles";
     }
 }

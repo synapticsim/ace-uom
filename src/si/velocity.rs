@@ -78,6 +78,10 @@ quantity! {
         /// Speed of light in vacuum, CODATA 2018
         @speed_of_light_in_vacuum: 299_792_458.0; "c", "speed of light in vacuum",
             "speeds of light in vacuum";
+
+        /// Custom units for ACE
+        @meter_per_minute: 1.0_E0 / 6.0_E1; "m/min", "meter per minute", "meters per minute";
+        @mach: 343.0_E0; "M", "mach", "mach";
     }
 }
 
